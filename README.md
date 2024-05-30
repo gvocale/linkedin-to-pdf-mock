@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project.
 
 ## Getting Started
 
-First, run the development server:
+1. Install packages. I used `bun`, but `npm` should just work fine.
 
 ```bash
-npm run dev
+bun install
 # or
-yarn dev
+npm install
+```
+
+2. Build
+```bash
+bun run build
 # or
-pnpm dev
+npm run build
+```
+
+3. Start
+```bash
+bun run start
 # or
-bun dev
+npm run start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Deployed
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## On GitHub
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## TO DOs
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[x] remove white outline on focus-visible on button
+[x] make iframe fit parent
+[x] add ghost when pdf is not generated
+[x] move spinner within ghost
+[ ] add breakpoints
+[ ] rewrite copy using AI
+[ ] prettify PDF
+[ ] use LinkedIn Auth API
